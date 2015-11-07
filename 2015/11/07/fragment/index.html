@@ -3,17 +3,19 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Back小站</title>
+  <title>Fragment的基本用法 | Back小站</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="有情怀的‘挨踢’男">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Back小站">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="Fragment的介绍Fragment是为了适配平板，大屏手机而生的！fragment必须依赖于activity，但同时拥有自己的生命周期。你可以把fragment当成activity的其中一部分，或者全部用fragment来填充activity布局！可以更加灵活的设计UI，适配不同尺寸的android设备！如下图（来自官网），就好比是我们常见的新闻阅读客户端，在平板中有足够大的空间来同时容纳两个">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Fragment的基本用法">
+<meta property="og:url" content="http://yoursite.com/2015/11/07/fragment/index.html">
 <meta property="og:site_name" content="Back小站">
-<meta property="og:description" content="有情怀的‘挨踢’男">
+<meta property="og:description" content="Fragment的介绍Fragment是为了适配平板，大屏手机而生的！fragment必须依赖于activity，但同时拥有自己的生命周期。你可以把fragment当成activity的其中一部分，或者全部用fragment来填充activity布局！可以更加灵活的设计UI，适配不同尺寸的android设备！如下图（来自官网），就好比是我们常见的新闻阅读客户端，在平板中有足够大的空间来同时容纳两个">
+<meta property="og:image" content="http://i.imgur.com/3rGWSOW.png">
+<meta property="og:updated_time" content="2015-11-07T05:04:50.626Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Back小站">
-<meta name="twitter:description" content="有情怀的‘挨踢’男">
+<meta name="twitter:title" content="Fragment的基本用法">
+<meta name="twitter:description" content="Fragment的介绍Fragment是为了适配平板，大屏手机而生的！fragment必须依赖于activity，但同时拥有自己的生命周期。你可以把fragment当成activity的其中一部分，或者全部用fragment来填充activity布局！可以更加灵活的设计UI，适配不同尺寸的android设备！如下图（来自官网），就好比是我们常见的新闻阅读客户端，在平板中有足够大的空间来同时容纳两个">
   
     <link rel="alternative" href="/atom.xml" title="Back小站" type="application/atom+xml">
   
@@ -165,9 +167,7 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-fragment" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-fragment" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2015/11/07/fragment/" class="article-date">
@@ -183,12 +183,23 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/11/07/fragment/">Fragment的基本用法</a>
+    <h1 class="article-title" itemprop="name">
+      Fragment的基本用法
     </h1>
   
 
       </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android/">Android</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
       
     
     <div class="article-entry" itemprop="articleBody">
@@ -206,157 +217,62 @@
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android/">Android</a></li></ul>
-	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2015/09/27/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
   
 </article>
 
 
-
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/09/27/hello-world/" class="article-date">
-  	<time datetime="2015-09-27T10:53:36.973Z" itemprop="datePublished">2015-09-27</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/09/27/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>&emsp;&emsp;接触&nbsp;Android开发也快一年吧！谈开发还是比较奢侈的。闲暇之余翻翻官文，敲敲代码，期间难免因学业而搁置了Android !因此，便诞生了Back小站。</p>
-<p>&emsp;&emsp;当然了，建立Back小站的初衷，不仅仅是为了记录android学习的方方面面，更是为了今后全面学习其他技术做更好的准备！</p>
-<p>&emsp;&emsp;平凡的世界里谁人不平凡。活着，也不过是来这世界走一遭罢了！喜怒哀乐，酸甜苦辣，尝遍。</p>
-<p>&emsp;&emsp;<strong>无悔就好！</strong></p>
-<hr>
-<p>&emsp;&emsp;<strong>你好，世界！</strong></p>
-<p>&emsp;&emsp;<strong>我来咯！</strong></p>
-<hr>
-<p>&emsp;&emsp;<strong>fighting……（●&gt;∀&lt;●）</strong></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android/">Android</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/World/">World</a></li></ul>
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
 	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
 
 
 
-
-
-
-
-  
-    <article id="post-Bandwagonhost" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/09/27/Bandwagonhost/" class="article-date">
-  	<time datetime="2015-09-27T10:53:36.953Z" itemprop="datePublished">2015-09-27</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/09/27/Bandwagonhost/">Bandwagonhost搭建VPN</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>&emsp;&emsp;相信大家都知道海外大部分网站无法正常浏览， Google亦如此，因而Android也难逃厄运！</p>
-<p>&emsp;&emsp;下面将一步步记录我在‘搬瓦工’主机搭建VPN流程！</p>
-<ol>
-<li>首先肯定是进入<a href="https://bandwagonhost.com/index.php">官网</a>购买你所需的套餐咯！目前最便宜的年付<strong>$19.9</strong></li>
-</ol>
-<p><img src="http://i3.tietuku.com/b387ee4b1cfa4f5f.jpg" alt=""><br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android/">Android</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Vpn/">Vpn</a></li></ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2015/09/27/Bandwagonhost/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="fragment" data-title="Fragment的基本用法" data-url="http://yoursite.com/2015/11/07/fragment/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"cnme"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
 
 
 
 
-
-
-
-  
-  
 </div>
       <footer id="footer">
   <div class="outer">
@@ -380,8 +296,8 @@
 		fancybox: true,
 		mathjax: true,
 		animate: true,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
